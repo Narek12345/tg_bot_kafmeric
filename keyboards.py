@@ -29,7 +29,6 @@ class UndergraduateProgramsKB:
 
 	programs_kb.add(InlineKeyboardButton('Международные экономические отношения', url="https://www.rea.ru/ru/org/cathedries/mireckaf/Documents/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%9C%D0%AD_%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82_38.03.01_%D0%9C%D0%AD%D0%9E_2023.pdf"))
 	programs_kb.add(InlineKeyboardButton('Глобальное устойчивое развитие', url="https://www.rea.ru/ru/org/cathedries/mireckaf/Documents/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%9C%D0%AD_%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82_41.03.05_%D0%93%D0%A3%D0%A0_2023.pdf"))
-	programs_kb.add(InlineKeyboardButton('Торговая дипломатия в международном бизнесе', url="https://www.rea.ru/ru/org/cathedries/mireckaf/Documents/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%9C%D0%AD_%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0_41.04.05_%D0%A2%D0%94%D0%B2%D0%9C%D0%91_2023.pdf"))
 	programs_kb.add(InlineKeyboardButton('⏪Назад', callback_data="back_to_menu_go"))
 
 

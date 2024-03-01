@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor
 from aiogram.types import Message, CallbackQuery
 
-from config import TOKEN, ADMIN_ID, CHANNEL_ID
+from config import TOKEN, ADMIN_ID, CHANNEL_ID, GROUP_ID
 from keyboards import SubscriptionKB, MenuKB, MenuGoKB, UndergraduateProgramsKB, AdditionalProgramsKB
 
 bot = Bot(token=TOKEN)
@@ -30,7 +30,7 @@ async def start_cmd(message: Message):
 		await message.answer("Вопрос получен ✅ после проверки он будет опубликован")
 		try:
 			await bot.send_message(ADMIN_ID, text=message.text)
-			await bot.send_message(-1002056159992, text=message.text)
+			await bot.send_message(GROUP_ID, text=message.text)
 		except Exception as e:
 			pass
 
